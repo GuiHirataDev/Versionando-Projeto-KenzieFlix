@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    background-color: #121214;
+}
+
+.top {
+    height: 338px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 32px;
+}
+
+.top .logo:hover {
+    cursor: pointer;
+}
+
+.top .texto {
+    margin-top: 100px;
+}
+
+.container {
+    height: 380px;
+    width: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.container .perfil {
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.container .perfi {
+    max-width: 100%;
+    transition: all 0.3s;
+}
+
+.container .perfil:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+    border: solid 1px #FFFFFF;
+}
+
+.container .adicionar {
+    border-radius: 10px;
+    filter: brightness(100%);
+    
+}
+
+.container .adicionar:hover {
+    filter: brightness(250%);
+    transition: 1s;
+    cursor: pointer;
+    border: solid 1px #FFFFFF;
+}
+
+.container .nome {
+    color: #9C9C9C;
+    text-align: center;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 14px;
+    filter: brightness(100%);
+
+}
+
+.container .nome:hover {
+    cursor: pointer;
+    filter: brightness(250%);
+    transition: 1s;
+}
+
+.container .item {
+    padding: 15px;
+}
+
+.bottom {
+    height: 238px;
+    display: flex;
+    justify-content: center;
+}
+
+.bottom .botao button {
+    padding: 15px 60px;
+    background-color: #121214;
+    border: 1px solid #FFFFFF;
+    color: #FFFFFF;
+    border-radius: 10px;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 16px;
+}
+
+.bottom .botao button:hover {
+    background-color: #FFFFFF;
+    color: #000000;
+    cursor: pointer;
+}
