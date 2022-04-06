@@ -45,7 +45,7 @@ body {
 .container .perfil:hover {
     transform: scale(1.1);
     cursor: pointer;
-    border: solid 1px #FFFFFF;
+    border: solid 2px #07f31d;
 }
 
 .container .adicionar {
@@ -58,7 +58,7 @@ body {
     filter: brightness(250%);
     transition: 1s;
     cursor: pointer;
-    border: solid 1px #FFFFFF;
+    border: solid 2px #07f31d;
 }
 
 .container .nome {
