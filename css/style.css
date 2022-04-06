@@ -88,16 +88,16 @@ body {
 
 .bottom .botao button {
     padding: 15px 60px;
-    background-color: #121214;
-    border: 1px solid #FFFFFF;
-    color: #FFFFFF;
+    background-color: #FFFFFF;
+    border: 2px solid #07f31d;
+    color: #000000;
     border-radius: 10px;
     font-family: 'Work Sans', sans-serif;
     font-size: 16px;
 }
 
 .bottom .botao button:hover {
-    background-color: #FFFFFF;
-    color: #000000;
+    background-color: #07f31d;
+    color: #FFFFFF;
     cursor: pointer;
 }
